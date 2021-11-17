@@ -1,0 +1,98 @@
+body {
+  height: 100%;
+  width: 100%;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-color: cadetblue;
+}
+.title {
+  display: flex;
+}
+.title-palylist {
+  font-size: xx-large;
+  margin-top: 100px;
+  margin-right: 550px;
+  font-weight: 800;
+  margin-left: 200px;
+}
+.fa-times {
+  margin-top: 100px;
+  margin-left: 60px;
+}
+.changmo-image {
+  width: 300px;
+  height: 300px;
+  border-radius: 30px;
+  margin-left: 60px;
+  margin-top: 90px;
+  border: solid;
+}
+.changmo {
+  display: flex;
+}
+.changmo-dis {
+  font-size: 4rem;
+  font-weight: 800;
+  margin-left: 50px;
+  margin-top: 120px;
+}
+img {
+  object-fit: cover;
+  border-radius: 25px;
+  width: 100%;
+  height: 100%;
+}
+.play {
+  display: flex;
+  margin-top: 80px;
+}
+.play-box {
+  width: 300px;
+  height: 100px;
+  border: solid 4px;
+  border-bottom: solid 13px;
+  border-radius: 30px;
+  margin-left: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.play-heart {
+  width: 100px;
+  height: 100px;
+  border: solid 4px;
+  border-radius: 70px;
+  border-bottom: solid 13px;
+  margin-left: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.play-plus {
+  width: 100px;
+  height: 100px;
+  border: solid 4px;
+  border-radius: 70px;
+  border-bottom: solid 13px;
+  margin-left: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.playtlist {
+  display: flex;
+  margin-top: 100px;
+  margin: 60px;
+}
+.changmo-play {
+  width: 100px;
+  height: 100px;
+  border: solid 4px;
+  border-radius: 30px;
+}
+.play-title {
+  margin-left: 30px;
+  font-size: 2.5rem;
+  font-weight: 800;
+}
