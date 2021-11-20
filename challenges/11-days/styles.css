@@ -49,9 +49,16 @@ body {
 .play {
   display: flex;
   justify-content: center;
+}
+.play__singer-name {
   font-size: 1.5rem;
   font-weight: 600;
+  margin-top: 30px;
 }
-.profile__singer-name {
-  margin-top: 20px;
+
+.play__singer-dis {
+  opacity: 0.5;
+  font-size: 1rem;
+  font-weight: 600;
+  margin-top: 30px;
 }
