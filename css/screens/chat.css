@@ -1,11 +1,11 @@
 #chat-screen {
-  background-color: #abc1d1;
+  background-color: thistle;
 }
 #chat-screen .alt-header,
 #chat-screen .status-bar {
   position: sticky;
   width: 100%;
-  background-color: #abc1d1;
+  background-color: thistle;
   box-sizing: border-box;
 }
 #chat-screen .alt-header {
@@ -15,11 +15,12 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  animation: fadeIn 0.8s linear;
 }
 .chat__timestamp {
   color: white;
   font-size: 14px;
-  background-color: #92a4b2;
+  background-color: plum;
   padding: 15px;
   border-radius: 25px;
   margin-bottom: 25px;
@@ -152,4 +153,15 @@
 
 .reply:focus-within {
   transform: translateY(80px);
+}
+
+@keyframes fadeIn {
+  from {
+    transform: translateY(-10px);
+    opacity: 0;
+  }
+  to {
+    transform: none;
+    opacity: 1;
+  }
 }
