@@ -8,10 +8,16 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 .icon-row__icon i {
   font-size: 35px;
 }
 .icon-row__icon span {
   margin-top: 18px;
+}
+.more-suggestions__icon-image img {
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
 }
