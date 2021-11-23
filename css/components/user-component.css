@@ -47,3 +47,7 @@
   margin-bottom: 10px;
   display: block;
 }
+.user-component__column__status-message {
+  margin-top: 6px;
+  opacity: 0.6;
+}
